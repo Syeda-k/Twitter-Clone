@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}", // scan all React files in src
+    "./index.html",   // 👈 Add this
+    "./*.{html,js}",  // 👈 Covers all HTML & JS in root folder
   ],
   theme: {
     extend: {},
